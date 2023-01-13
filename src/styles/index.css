@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'basier';
+  font-display: swap;
+  src: url('/fonts/BasierCircle-Regular.woff2') format('woff2');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'basier';
+  font-display: swap;
+  src: url('/fonts/BasierCircle-Medium.woff2') format('woff2');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'basier';
+  font-display: swap;
+  src: url('/fonts/BasierCircle-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'basier';
+  font-display: swap;
+  src: url('/fonts/BasierCircle-Bold.woff2') format('woff2');
+  font-weight: 700;
+}
+
+@layer base {
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply text-light-text-primary;
+  }
+
+  html {
+    font-family: basier, system-ui, sans-serif;
+  }
+}
