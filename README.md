@@ -23,10 +23,7 @@ cd my-app
 Create .env file reference from .env.example
 
 ```
-VITE_USE_MOCK_DATA= // true | false recommend set true only in development
-VITE_GLOBAL_FETCH_INTERVAL= // number in milliseconds unit
 VITE_API_URL= // string !required exclude trailing slash 
-VITE_ENABLE_PREFETCH= // true | false prefetch data onload
 ```
 
 to watch change and continually rebuild module 
