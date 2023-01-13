@@ -14,8 +14,8 @@ Monitoring Website for Forward Protocal
 to install project
 
 ```
-git clone https://github.com/Forward-Development/forward-monitor-app
-cd forward-monitor-app
+git clone https://github.com/Forward-Development/react-static-site-template my-app
+cd my-app
 ```
 
 ### Environment file
@@ -60,6 +60,3 @@ pnpm i
 ```
 
 then restart your code editor/IDE or restart language server service
-
-# For other details and documentation
-https://forwardian.atlassian.net/wiki/spaces/FDEFI/pages/61309093/FE+Monitoring+Website
